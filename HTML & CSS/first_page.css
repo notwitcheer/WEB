@@ -1,0 +1,152 @@
+body {
+    background-color: #5f52b1;
+    font-family: Arial, Helvetica, sans-serif;            
+}
+
+p.category {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.category {
+    margin-bottom: -20px;
+    margin-top: 60px;
+}
+
+div.content {
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+            
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+div.separator {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.info {
+    position: relative;
+}
+
+table.info {
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%;
+    color: white; 
+    background-color: #b79fc5C0;
+    height: 60px;
+}
+
+table.info td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+table.info th {
+    text-align: center;
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 1px;
+}
+
+img.info {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: grey;
+}
+
+div.column {
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.column h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #b79fc5C0;
+    padding-bottom: 5px;
+}
+
+div.column1 {
+    display: inline-block;
+    margin-right: 5%;
+
+}
+
+div.column2 {
+    float: right;
+}
+
+div.yes p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    padding: 8px 0px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+table.no p.number {
+    background-color: #b79fc5C0;
+    color: white;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+table.no td {
+    vertical-align: top;
+}
+
+table.no td.Jon {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table.no tr {
+    height: 45px;
+}
+
+* {
+    overflow: auto;
+}
